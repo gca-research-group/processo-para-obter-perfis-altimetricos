@@ -1,0 +1,5 @@
+.env
+.venv
+assets/dados_entrada/*
+logs
+__pycache__
