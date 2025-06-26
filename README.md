@@ -48,7 +48,7 @@ Exemplos válidos:
 - Ref 2
 - Parada 2
 
-> :construction: A sequência deve seguir a ordem gps do percurso. :construction:
+> A sequência deve seguir a ordem gps do percurso. 
 
 Exporte e salve o traçado no formato KML na pasta: assets/dados_entrada
 
