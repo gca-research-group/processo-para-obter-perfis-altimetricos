@@ -1,8 +1,10 @@
-# Otimização
+# PROCESSO ESCALÁVEL PARA OBTENÇÃO DE PERFIS ALTIMÉTRICOS UTILIZANDO MODELOS DIGITAIS DE ELEVAÇÃO OPEN SOURCE
 
 > Este repositório contém o código relacionado ao trabalho enviado para a [Anpet 2025](https://www.eventweb.com.br/anpet2025/home-event/)
 
 ## Visão Geral
+
+Um processo escalável para calcular perfis altimétricos e localizar, sobre esses perfis, as paradas das linhas de ônibus, utilizando Modelos Digitais de Elevação (MDE). 
 
 ## Como utilizar
 
