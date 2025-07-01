@@ -1,0 +1,7 @@
+.env
+.venv
+assets/dados_entrada/*
+assets/saida/*
+assets/geotiff_urbanos/*
+logs
+__pycache__

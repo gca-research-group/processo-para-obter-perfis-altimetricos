@@ -1,0 +1,41 @@
+[project]
+name = "anpet"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Luciana Machado Cardoso",email = "luciana.c@sou.unijui.edu.br"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.1.1"
+numpy = "^2.3.1"
+pandas = "^2.3.0"
+scipy = "^1.16.0"
+geopy = "^2.4.1"
+rasterio = "^1.4.3"
+matplotlib = "^3.10.3"
+requests = "^2.32.4"
+pyproj = "^3.7.1"
+
+[tool.poetry.group.dev.dependencies]
+taskipy = "^1.14.1"
+isort = "^6.0.1"
+autoflake = "^2.3.1"
+black = "^25.1.0"
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+lint = "autoflake --in-place --exclude=*/migrations/* --remove-all-unused-imports -r . && black . && isort ."
